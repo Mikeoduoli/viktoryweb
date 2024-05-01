@@ -1,6 +1,5 @@
+import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import About from './components/About'
 import Hero from './components/Hero'
@@ -15,7 +14,7 @@ const App = () => {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
+    <header className="mx-16 py-8">
       <Nav />
       <Hero />
       <Shop />
@@ -24,7 +23,7 @@ const App = () => {
       <About />
       <Footer />
       {/* Hello world! */}
-    </h1>
+    </header>
     
     </>
   )
