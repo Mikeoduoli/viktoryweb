@@ -2,9 +2,27 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div href="about">
-      About Section
+    <>
+    <div className='bg-cyan-300 pt-4' id='Hero'>
+      <h1 className='font-bold'>About Section</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore nam vel explicabo incidunt, dolor quo, id, alias assumenda eaque 
+        non quasi animi voluptatibus quia aut est hic. Illo, dolorum quod.</p>
+        <br />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore nam vel explicabo incidunt, dolor quo, id, alias assumenda eaque 
+        non quasi animi voluptatibus quia aut est hic. Illo, dolorum quod.</p>
+        <br />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore nam vel explicabo incidunt, dolor quo, id, alias assumenda eaque 
+        non quasi animi voluptatibus quia aut est hic. Illo, dolorum quod.</p>
+        <br />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tempore nam vel explicabo incidunt, dolor quo, id, alias assumenda eaque 
+        non quasi animi voluptatibus quia aut est hic. Illo, dolorum quod.</p>
+        <br />
     </div>
+  </>
   )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import './App.css'
 import About from './components/About'
 import Hero from './components/Hero'
@@ -22,7 +21,6 @@ const App = () => {
       <Reviews />
       <About />
       <Footer />
-      {/* Hello world! */}
     </header>
     
     </>
